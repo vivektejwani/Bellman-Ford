@@ -1,0 +1,210 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AB0B826F17157F9F0031890D /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AB0B826E17157F9F0031890D /* main.cpp */; };
+		AB0B827117157F9F0031890D /* Bellman_Ford.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = AB0B827017157F9F0031890D /* Bellman_Ford.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		AB0B826817157F9F0031890D /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				AB0B827117157F9F0031890D /* Bellman_Ford.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		AB0B826A17157F9F0031890D /* Bellman Ford */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Bellman Ford"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB0B826E17157F9F0031890D /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		AB0B827017157F9F0031890D /* Bellman_Ford.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Bellman_Ford.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AB0B826717157F9F0031890D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AB0B825F17157F9D0031890D = {
+			isa = PBXGroup;
+			children = (
+				AB0B826D17157F9F0031890D /* Bellman Ford */,
+				AB0B826B17157F9F0031890D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AB0B826B17157F9F0031890D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AB0B826A17157F9F0031890D /* Bellman Ford */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AB0B826D17157F9F0031890D /* Bellman Ford */ = {
+			isa = PBXGroup;
+			children = (
+				AB0B826E17157F9F0031890D /* main.cpp */,
+				AB0B827017157F9F0031890D /* Bellman_Ford.1 */,
+			);
+			path = "Bellman Ford";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AB0B826917157F9F0031890D /* Bellman Ford */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB0B827417157F9F0031890D /* Build configuration list for PBXNativeTarget "Bellman Ford" */;
+			buildPhases = (
+				AB0B826617157F9F0031890D /* Sources */,
+				AB0B826717157F9F0031890D /* Frameworks */,
+				AB0B826817157F9F0031890D /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Bellman Ford";
+			productName = "Bellman Ford";
+			productReference = AB0B826A17157F9F0031890D /* Bellman Ford */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AB0B826117157F9D0031890D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = AB0B826417157F9D0031890D /* Build configuration list for PBXProject "Bellman Ford" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AB0B825F17157F9D0031890D;
+			productRefGroup = AB0B826B17157F9F0031890D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AB0B826917157F9F0031890D /* Bellman Ford */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AB0B826617157F9F0031890D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB0B826F17157F9F0031890D /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		AB0B827217157F9F0031890D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		AB0B827317157F9F0031890D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		AB0B827517157F9F0031890D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AB0B827617157F9F0031890D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AB0B826417157F9D0031890D /* Build configuration list for PBXProject "Bellman Ford" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB0B827217157F9F0031890D /* Debug */,
+				AB0B827317157F9F0031890D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB0B827417157F9F0031890D /* Build configuration list for PBXNativeTarget "Bellman Ford" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB0B827517157F9F0031890D /* Debug */,
+				AB0B827617157F9F0031890D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AB0B826117157F9D0031890D /* Project object */;
+}
